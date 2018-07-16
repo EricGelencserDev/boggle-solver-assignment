@@ -1,0 +1,12 @@
+{
+  "name": "boggle",
+  "version": "1.0.0",
+  "description": "Simple Boggle web app using node.js and react",
+  "main": "./server/bin/www",
+  "scripts": {
+    "start": "node ./server/bin/www",
+    "preinstall": "cd ./server && npm install"
+  },
+  "author": "Rob Thuleen",
+  "license": "ISC"
+}
