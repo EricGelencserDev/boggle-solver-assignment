@@ -9,13 +9,17 @@
 
 .App-header {
   background-color: #222;
-  height: 50px;
+  height: 70px;
   padding: 20px;
   color: white;
 }
 
 .App-title {
   font-size: 1.5em;
+}
+
+.App-author {
+  font-size: 1em;
 }
 
 .App-intro {
@@ -28,7 +32,6 @@
     margin-right: 100px;
 }
 .board {
-  float: left;
 }
 .cell {
   display: inline-block;
@@ -42,17 +45,33 @@
   text-transform: uppercase;
 }
 
+.board-size {
+
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 3px;
+  width: 2em;
+  height: 1em;
+  text-align: 'center';
+}
 .row {}
 
 .buttonRow {
   clear: both;
   margin-top: 20px;
-  text-align: left;
 }
 .words {
-  float: left;
+  text-align: left;
+  clear: both;
 }
 
+.word {
+  display: inline-block;
+  width: 75px;
+  font-size: 14px;
+  text-align: left;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
